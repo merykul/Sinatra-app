@@ -8,6 +8,8 @@ body {
 
 h1 {
     color: #444;
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Add some space below the heading */
 }
 
 form {
@@ -48,4 +50,10 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: #45a049;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
 }
